@@ -4,6 +4,7 @@ import joblib
 from streamlit_lottie import st_lottie
 import json
 
+
 # Visualization libraries (used in Batch Prediction and Dashboard tabs)
 import plotly.express as px
 import seaborn as sns
@@ -19,20 +20,20 @@ def load_lottiefile(filepath: str):
 
 # Load animations from local files
 animations = {
-    "upload": load_lottiefile("animations/upload.json"),
-    "dashboard": load_lottiefile("animations/dashboard.json"),
-    "charts": load_lottiefile("animations/ChartsAnimation.json"),
-    "success": load_lottiefile("animations/success.json"),
-    "churn": load_lottiefile("animations/leaving.json"),
-    "head": load_lottiefile("animations/headanimation.json"),
+    "upload": load_lottiefile("assets/animations/upload.json"),
+    "dashboard": load_lottiefile("assets/animations/dashboard.json"),
+    "charts": load_lottiefile("assets/animations/ChartsAnimation.json"),
+    "success": load_lottiefile("assets/animations/success.json"),
+    "churn": load_lottiefile("assets/animations/leaving.json"),
+    "head": load_lottiefile("assets/animations/headanimation.json"),
 }
 
 # Load pre-trained model and artifacts
-model = joblib.load("final_churn_model.pkl")
-scaler = joblib.load("scaler.pkl")
-label_encoders = joblib.load("label_encoders.pkl")
-feature_columns = joblib.load("feature_columns.pkl")
-optimal_threshold = joblib.load("optimal_threshold.pkl")["optimal_threshold"]
+model = joblib.load("data/final_churn_model.pkl")
+scaler = joblib.load("data/scaler.pkl")
+label_encoders = joblib.load("data/label_encoders.pkl")
+feature_columns = joblib.load("data/feature_columns.pkl")
+optimal_threshold = joblib.load("data/optimal_threshold.pkl")["optimal_threshold"]
 
 # Function to preprocess input data
 def preprocess_input(data):
