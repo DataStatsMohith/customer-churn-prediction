@@ -11,21 +11,30 @@ The project includes:
 
 ## 📑 Table of Contents
 1. [Overview](#-overview)
-2. [Objectives](#-objectives)
-3. [Project Workflow](#️-project-workflow)
+2. [Live Demo](#-live-demo)
+3. [Objectives](#-objectives)
+4. [Project Workflow](#️-project-workflow)
    - [Data Preprocessing](#data-preprocessing)
    - [Model Training and Optimization](#model-training-and-optimization)
    - [App Deployment](#app-deployment)
-4. [Key Insights and Results](#-key-insights-and-results)
+5. [Key Insights and Results](#-key-insights-and-results)
    - [KPIs](#key-performance-indicators-kpis)
    - [Visualizations](#visualizations)
-5. [How to Run Locally](#️-how-to-run-locally)
-6. [Repository Structure](#-repository-structure)
-7. [Future Work](#-future-work)
-8. [License](#-license)
+6. [How to Run Locally](#️-how-to-run-locally)
+7. [Repository Structure](#-repository-structure)
+8. [Future Work](#-future-work)
+9. [License](#-license)
 
 ---
 
+## 🌐 Live Demo
+Explore the deployed app here: [Customer Churn Prediction App](https://datastatsmohith-customer-churn-prediction-appapp-zvje6e.streamlit.app/)
+
+This interactive app provides:
+- Single and batch customer churn predictions.
+- Dashboards with key insights and visualizations.
+
+---
 ## 🎯 Objectives
 1. **Understand the factors influencing customer churn** using data analysis and visualization.
 2. **Develop a machine learning model** to predict churn with high accuracy and interpretability.
