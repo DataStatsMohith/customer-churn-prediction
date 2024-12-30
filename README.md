@@ -31,8 +31,9 @@ The project includes:
 Explore the deployed app here: [Customer Churn Prediction App](https://datastatsmohith-customer-churn-prediction-appapp-zvje6e.streamlit.app/)
 
 This interactive app provides:
-- Single and batch customer churn predictions.
-- Dashboards with key insights and visualizations.
+- Single Customer Prediction: Predict churn for a single customer based on key features.
+- Batch Prediction: Upload a CSV file containing multiple customer records to generate predictions for the entire batch.
+- Dashboards: Visualize key insights, such as churn rates, feature correlations, and demographic trends.
 
 ---
 ## 🎯 Objectives
